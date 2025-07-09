@@ -16,7 +16,7 @@ Ever wondered why your favorite shortcut isn’t working, or which app is hijack
 ## Usage
 `HotMon.exe [flags]`
 
-### CLI Flags
+### Flags
 | Flag		      |Alias	      | Description
 |---------|-----|-------------|
 | --probe       | -p          |   Probe available hotkeys and store
