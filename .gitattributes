@@ -1,0 +1,17 @@
+# Normalize line endings for all text files
+* text=auto
+
+# Treat common image formats as binary
+*.jpg binary
+*.png binary
+*.gif binary
+
+# Optionally, treat project/solution files as binary to avoid merge conflicts
+# Uncomment if needed:
+# *.sln     merge=binary
+# *.csproj  merge=binary
+
+# Optionally, enable text diff for common document formats
+# Uncomment if needed:
+# *.docx diff=astextplain
+# *.pdf  diff=astextplain
