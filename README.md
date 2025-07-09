@@ -16,13 +16,6 @@ Ever wondered why your favorite shortcut isn’t working, or which app is hijack
 ## Usage
 `HotMon.exe [flags]`
 
-<!--``` 
-  --probe, -p            Probe available hotkeys and store
-  --search, -f <kw>      Search hotkey combo
-  --live-log, -l, -i     Start live or Interactive monitor
-  --help, -h             Show this help message
-```--!>
-
 ### CLI Flags
 | Flag		      |Alias	      | Description
 |---------|-----|-------------|
