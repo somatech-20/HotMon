@@ -2,7 +2,7 @@
 //
 // Copyright (c) MMC©2025. All rights reserved.
 //
-// Hotkey Monitor v0.9 - CLI Search, Logging, App Detection, and more.
+// Hotkey Monitor v1.0 - CLI Search, Logging, App Detection, and more.
 
 #include <windows.h>
 #include <psapi.h>
@@ -254,7 +254,7 @@ if (vk == VK_LWIN || vk == VK_RWIN) win = false;
 }
 
 void RunLiveMonitor() {
-    std::cout << COLOR_BOLD << "Hotkey Monitor v0.9" << COLOR_RESET << "\n";
+    std::cout << COLOR_BOLD << "Hotkey Monitor v1.0" << COLOR_RESET << "\n";
     std::cout << " - Ctrl + F10: Export CSV\n";
     std::cout << " - Ctrl + F11: Probe hotkey availability + autosave\n";
     std::cout << " - ESC: Exit program\n";
@@ -320,7 +320,7 @@ else if (arg == "--live-log" || arg == "-l" || arg == "-i") {
             return 0;
         }
         else if (arg == "--help" || arg == "-h") {
-            std::cout << COLOR_BOLD << "HotMon - A Windows Hotkey Monitor CLI v0.9" << COLOR_RESET << "\n";
+            std::cout << COLOR_BOLD << "HotMon - A Windows Hotkey Monitor CLI v1.0" << COLOR_RESET << "\n";
             std::cout << "HotMon Usage:\n"
                 << "  --probe, -p                        Probe available hotkeys and store\n"
                 /*<< "  --save-log, -s                   Save current log to CSV\n"*/
