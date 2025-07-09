@@ -1,6 +1,8 @@
 # HotMon - Global Hotkey Monitor Tool (windows)
 
-Monitor global hotkey usage and detect which combinations are already taken by other apps.
+Ever wondered why your favorite shortcut isn’t working, or which app is hijacking your hotkeys? **HotMon** gives you instant answers. 
+
+**HotMon** is a lightweight, command-line tool designed to help power users, developers, and IT professionals monitor and troubleshoot global hotkey usage on Windows. 
 
 ## Features
 
