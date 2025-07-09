@@ -22,12 +22,12 @@ Monitor global hotkey usage and detect which combinations are already taken by o
 ```
 
 ### CLI Flags
-| Flag		      |Alias	     | Description
+| Flag		      |Alias	      | Description
 |---------|-----|-------------|
-| --probe       | -p         |   Probe available hotkeys and store
-|  --search     | -f <kw>    |   Search hotkey combo
-|  --live-log   | -l, -i     |   Start live or Interactive monitor
-|  --help       | -h         |   Show this help message
+| --probe       | -p          |   Probe available hotkeys and store
+|  --search     | -f <kw>       |   Search hotkey combo
+|  --live-log   | -l, -i        |   Start live or Interactive monitor
+|  --help       | -h            |   Show this help message
 ---
 
 ## Hotkey Controls (While Running)
