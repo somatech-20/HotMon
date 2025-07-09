@@ -77,3 +77,4 @@ nunit-*.xml
 # Others
 *.csv
 /temp
+*.exe
