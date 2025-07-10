@@ -38,7 +38,7 @@ Ever wondered why your favorite shortcut isn’t working, or which app is hijack
 Use Visual Studio (with Desktop C++ workload) or:
 
 ```bash
-g++ hotkey_monitor.cpp -o hotkey_monitor.exe -luser32 -lpsapi
+g++ HotMon.cpp -o HotMon.exe -luser32 -lpsapi
 ```
 
 ## License
