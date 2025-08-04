@@ -6,11 +6,11 @@ Ever wondered why your favorite shortcut isn’t working, or which app is hijack
 
 ## Features
 
-- ✅ Detect all modifier-based combos (Ctrl, Alt, Shift, Win)
-- ✅ Live logging of hotkeys + foreground app
-- ✅ Export logs to CSV
-- ✅ Probe system-wide hotkey availability
-- ✅ Command-line friendly (with aliases)
+- Detect all modifier-based combos (Ctrl, Alt, Shift, Win)
+- Live logging of hotkeys + foreground app
+- Export logs to CSV
+- Probe system-wide hotkey availability
+- Command-line friendly (with aliases)
 <!-- - ✅ Silent or timed capture modes -->
 
 ## Usage
@@ -25,7 +25,7 @@ Ever wondered why your favorite shortcut isn’t working, or which app is hijack
 |  --help       | -h            |   Show this help message
 ---
 
-## Hotkey Controls (While Running)
+## Hotkey Controls (While in '--live-log')
 - Press **Ctrl + F10** → Save log as `hotkey_log.csv`
 - Press **Ctrl + F11** → Probe hotkeys and auto-save to `hotkey_available.csv`
 - Press **ESC** → Exit
