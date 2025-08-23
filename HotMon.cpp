@@ -4,6 +4,8 @@
 //
 // Hotkey Monitor v1.0 - CLI Search, Logging, App Detection, and more.
 
+// TODO: introduce json format, keep only last N entries to bound memory (mem cap).
+
 #include <windows.h>
 #include <psapi.h>
 #include <iostream>
